@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="style.css"/>
+        <div class="header">
+            <nav>
+            <h1>Decimal to Binary Converter</h1>
+            </nav>
+        </div>
+</head>
+<body>
+   
+        <input class="center-block" class="input" size="40" id = "input" type = "text" ></input>
+            <div class="btn-container">
+                <button class="btn-3d green" 
+                onclick = "getElementById('input2').value=decimalToBinary(getElementById('input').value)">
+                Convert to binary</button>
+            </div>
+        <div id = "result"></div>
+        <input class="center-block" class="input" size="40" id = "input2" type = "text" ></input>
+            <div class="btn-container">
+                <button class="btn-3d green" 
+                onclick = "getElementById('input').value=binaryToDecimal(getElementById('input2').value)">
+                Convert to decimal</button>
+            </div>
+        
+        
+    
+    <script src ="binary.js">
+        
+    </script>
+    
+</body>
+
+</html>

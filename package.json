@@ -1,0 +1,24 @@
+{
+  "name": "binary",
+  "version": "1.0.0",
+  "description": "node.js app that computes binary numbers",
+  "main": "binary.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codey-sudo/binary_project.git"
+  },
+  "author": "Chris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codey-sudo/binary_project/issues"
+  },
+  "homepage": "https://github.com/codey-sudo/binary_project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "type": "module"
+}
